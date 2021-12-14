@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<body class="container">
+
+<main>
+  <div class="jumbotron">
+    <h1>Full Cycle Rocks</h1>
+    <ul>
+      <ul>
+        <% persons.forEach(function(person) { %>
+            <li>
+                <strong><%= person.firstName %></strong>
+                <%= person.lastName %>
+            </li>
+        <% }); %>
+    </ul>
+    </ul>
+  </div>
+</main>
+
+</body>
+</html>

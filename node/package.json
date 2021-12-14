@@ -1,0 +1,15 @@
+{
+  "name": "docker_code_education",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Felipe Fucs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "mysql": "^2.18.1",
+    "ejs": "3.1.6"
+  }
+}
